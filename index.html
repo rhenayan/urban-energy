@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--css-->
+    <link rel="stylesheet" href="main.css">
+
+    <!--Media Query-->
+
+    <link rel="stylesheet" href="MQ_desk.css">
+
+    <!--material icons-->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+    
+    <!--Google fonts-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+
+<!--animate on scroll-->
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Urban Energy Condominium </title>
+</head>
+
+<body class="page-1" id="top">
+
+
+    <nav>
+        <a href="#menu"><img class="burger-icon"  src="assets/burger-menu.png" alt="hamburger icon">
+    </a>
+
+
+        <ul class="menuList-desk">
+            <li><a href="units.html">Residence</a></li>
+            <li><a href="units.html">Commercial</a></li>
+
+            <li id="logo"><a href="#" ><img src="assets/logo2.png"></a></li>
+
+            <li><a href="amenities.html">Virtual Tour</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+
+        </ul>
+         
+    </nav>
+
+<!--------------------HERO / CALL TO ACTION----------------->
+
+<main>
+
+    
+
+    <section class="hero">
+
+        <div class="fullscreen-VideoBG">
+        <video autoplay muted loop id="heroVideo">
+            <source src="assets/hero2_bg.mp4" type="video/mp4">
+          </video>
+        </div>
+
+
+        <div id="content">
+
+        <div class="intro">
+        <p class="heading" data-aos="fade" data-aos-duration="2000">Urban <br> Energy</p>
+        <p class="subheading" data-aos="fade" data-aos-duration="2000">Upscale.<br> City Views. <br> Urban Oasis.</p>
+        </div>
+
+        <div class="cta_btn" data-aos="zoom-in" data-aos-duration="1700">
+        <span class="btn"><a href="#register" >Register your interest</a></span>
+        <span class="btn"><a href="#tour" >Book a Tour Appointment</a></span></div>
+        
+
+        <div class="nextPage"><a href="#unit">come in <br><img src="assets/double_arrow.svg" alt="double_arrow"><img src="assets/double_arrow.svg" alt="double_arrow"></a>
+        </div>
+
+    
+    </section>
+
+    <!----------UNITS----------->
+
+    <section class="units" id="unit">
+
+       <!--<div class="top">
+            <a href="#top"><img src="assets/backtothetop.png"></a><br><span>back to <br>the top</span>
+       </div> -->
+
+        <div class="heading"> 
+        <p data-aos="fade-up" data-aos-duration="2000">Supreme Residences <br>for a Modern Lifestyle.
+        </p> 
+        
+        </div>
+
+        <div class="nextPage"><a href="units.html">Explore  <br><img src="assets/double_arrow.svg" alt="double_arrow"><img src="assets/double_arrow.svg" alt="double_arrow"></a>
+        </div>
+
+
+        <div class="inquiry" >
+            <a href="#register">Register your interest</a>
+        </div>
+
+    </section>
+
+    <section class="virtual-tour">
+
+        <!--<div class="top">
+            <a href="#top"><img src="assets/backtothetop.png"></a><br><span>back to <br>the top</span>
+        </div> -->
+
+        <div class="heading"> 
+            <p data-aos="fade-up" data-aos-duration="2000">Immaculate design <br> coupled with first-class amenities.
+            </p> 
+            
+            </div>
+
+            <div class="nextPage"><a href="amenities.html">Tour  <br><img src="assets/double_arrow.svg" alt="double_arrow"><img src="assets/double_arrow.svg" alt="double_arrow"></a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!---Contact Form and Appointment Form-->
+
+    <section class="get-info" id="register">
+
+        <div class="top">
+            <a href="#top"><img src="assets/backtothetop.png"></a><br><span>back to <br>the top</span>
+        </div>
+
+        <div class="form-wrapper" data-aos="zoom-in" data-aos-duration="1700">
+        <div class="content">
+            <h1 class="heading">Register your interest <br> and we'll be in touch</h1>
+            <p class="subheading">our dedicated sales team is ready</p>
+        </div>
+
+        <form action="" method="get" class="form">
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName" required>
+
+        
+
+            <label for="lastName">Last Name: </label>
+            <input type="text" name="lastName" id="lastName" required>
+
+            
+
+            <label for="email">Email: </label>
+            <input type="email" id="email"   required>
+
+            
+
+            <label for="phone">Phone: </label>
+            <input type="phone"   id="phone" required>
+
+
+            <p class="subheading"> in order for us to tailer our offer specifically for your needs. Please let us know which level you are interested in or how many rooms you will need</p>
+
+            <textarea id="details" name="story"
+          rows="3" cols="33" placeholder="Details"></textarea>
+
+            <h3 class="book-a-date" id="tour">Tour a Date</h3>
+
+            <p class="subheading"> We would love to show you " " <br> Please let us know when you are available and we will do our best to receive you on that date and time:</p>
+
+            <label for="date">Date: </label>
+            <input type="datetime-local"   id="tour-appointment" required>
+
+        
+
+            <input type="button" value="Submit" class="btn">
+
+        </form>
+        </div>
+
+    </section>
+
+<!--MENU LIST-->
+
+<section class="menu-list" id="menu">
+
+    <div class="menu-wrapper">
+        <h1 class="heading">menu</h1>
+
+        <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="units.html#res">residence</a></li>
+        <li><a href="units.html#ofc">commercial</a></li>
+        <li><a href="amenities.html">virtual tour</a></li>
+        <li><a href="contacts.html">contacts</a></li>
+        </ul>
+
+    </div>
+
+
+</section>
+
+</main>
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    
+</body>
+</html>

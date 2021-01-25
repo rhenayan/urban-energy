@@ -1,0 +1,183 @@
+HEADING
+
+font-family: 'Playfair Display SC', serif;
+
+
+reg text
+
+font-family: 'Fauna One', serif;
+
+
+
+pick 1"
+
+https://coolors.co/eff1ed-373d20-717744-bcbd8b-766153
+
+
+
+color: link and heading - color:#eff1ed;
+
+
+subheading:   color: #bcbd8b;
+
+border: #766153
+
+
+bg: #373d20;
+
+
+rgba(118, 97, 83, 0.5)
+
+MEDIA QUERY
+=================================
+
+
+.res
+{
+    background: #373d20;
+}
+
+.ofc {
+    background: #766153;
+}
+
+
+.unit-container {
+   
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.residence {
+    order: 1;
+}
+
+.residence{
+        order: 2;
+}
+
+.unit-content{
+    width: 40%;
+    
+}
+
+.unit-slideshow {
+    width: 60%;
+    margin: auto;
+    padding: .5rem;
+}
+
+
+.unit-content ul, .rooms .subheading {
+    padding: 0 5rem;
+   
+}
+
+.unit-content ul li {
+    text-align: left;
+}
+
+.unit-content ul li:not(:nth-child(1)) {
+    margin-top: 1rem;
+
+}
+
+
+
+=================================
+
+class="d-block w-100"
+
+
+.residence {
+    height: auto;
+}
+
+
+.unit-content {
+    order: 2;
+    height: 100vh;
+    background: #373d20;
+    
+}
+
+.unit-slideshow {
+    order 1;
+}
+
+.unit-content img {
+   width: 15%;
+   padding-right: .8rem;
+}
+
+.residence .subheading ,.residence ul{
+    padding: 0 3rem;
+  
+}
+
+.residence li {
+    text-align: left;
+    font-size: .8rem;
+    padding: .5rem;
+ 
+}
+
+
+
+
+=================
+
+
+
+
+    <section class="residence">
+
+        <div class="unit-content">
+
+            <p class="heading">Residence</p>
+
+            <p class="subheading">Features:</p>
+
+            <ul>
+                <li><img src="assets/structure.svg" alt="structure"> Concrete foundating</li>
+                <li><img src="assets/cctv.svg" alt="cctv">Visitor Management Systems</li>
+                <li><img src="assets/car-parking.svg" alt="car park">24 hour/day car park access</li>
+                <li><img src="assets/router.svg" alt="communication infrastructure">State of the art communications infrastructure</li>
+                <li><img src="assets/electric.svg" alt="electric system">Emergency power capacity</li>
+                <li><img src="assets/fire-alarm.svg" alt="fire alarm system">Full interior coded fire alarm system</li>
+            </ul>
+        </div>
+
+        <div class="unit-slideshow">
+
+            <div id="slide-indicator" class="carousel slide" data-bs-ride="carousel">
+               
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="assets/living-room.jpg" class="d-block w-100" alt="living room">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/kitchen.jpg" class="d-block w-100" alt="kitchen">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/bedroom.jpg" class="d-block w-100" alt="bedroom">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/bathroom.jpg" class="d-block w-100" alt="bathroom">
+                  </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#slide-indicator" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#slide-indicator" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+            </div>
+
+        </div>
+
+    </section>
